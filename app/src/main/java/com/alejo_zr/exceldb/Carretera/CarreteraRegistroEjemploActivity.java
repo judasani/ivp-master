@@ -13,8 +13,4 @@ public class CarreteraRegistroEjemploActivity extends AppCompatActivity {
         setContentView(R.layout.activity_carretera_registro_ejemplo);
     }
 
-
-
-
-
 }
