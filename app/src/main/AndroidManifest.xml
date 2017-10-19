@@ -107,7 +107,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Carretera.CarreteraRegistroEjemploActivity"></activity>
+        <activity android:name=".Carretera.CarreteraRegistroEjemploActivity" />
+        <activity android:name=".Segmento.Flexible.RegistroSegmentoFlexEjemploActivity" />
+        <activity android:name=".Pato.EjemploRegistroPatologiaFlexActivity"></activity>
     </application>
 
 </manifest>

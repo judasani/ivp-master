@@ -1,6 +1,7 @@
 package com.alejo_zr.exceldb.Segmento.Flexible;
 
 import android.app.DatePickerDialog;
+import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.support.design.widget.TextInputLayout;
@@ -85,6 +86,10 @@ public class RegistroSegmentoFlexActivity extends AppCompatActivity {
                 break;
             case R.id.btnFecha:
                 obtenerFecha();
+                break;
+            case R.id.tvej_Segmento_Flex:
+                Intent intent = new Intent(RegistroSegmentoFlexActivity.this, RegistroSegmentoFlexEjemploActivity.class);
+                startActivity(intent);
                 break;
         }
 

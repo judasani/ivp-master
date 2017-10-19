@@ -258,6 +258,13 @@ public class RegistroPatologiaFlexActivity extends AppCompatActivity {
             case R.id.btnObtenerCoordenadasPatoFlex:
                 obtenerCoordenadas();
                 break;
+            case R.id.tvej_pato_Flex:
+                Intent intent = new Intent(RegistroPatologiaFlexActivity.this, EjemploRegistroPatologiaFlexActivity.class);
+                startActivity(intent);
+                break;
+
+
+
         }
 
     }

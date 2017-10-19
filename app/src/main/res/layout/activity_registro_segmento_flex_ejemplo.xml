@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="@dimen/activity_horizontal_margin"
-    tools:context="com.alejo_zr.exceldb.Segmento.Flexible.RegistroSegmentoFlexActivity">
+    android:layout_margin="20dp"
+    tools:context="com.alejo_zr.exceldb.Segmento.Flexible.RegistroSegmentoFlexEjemploActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -36,15 +36,7 @@
                 android:layout_gravity="center"
                 />
 
-            <TextView
-                android:id="@+id/tvej_Segmento_Flex"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:text="@string/ejemplo"
-                android:textColor="@color/colorAccent"
-                android:layout_gravity="right"
-                android:layout_marginRight="@dimen/marginLeftTV"
-                android:onClick="onClick"/>
+
 
             <TextView
                 android:id="@+id/tvNumeroFlex"
@@ -69,7 +61,10 @@
                         android:id="@+id/campoNCalzadasFlex"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:hint="@string/nCalzadas"
+                        android:text="2"
+                        android:gravity="center"
+
+
                         />
                 </android.support.design.widget.TextInputLayout>
 
@@ -83,7 +78,9 @@
                         android:id="@+id/campoNCarrilesFlex"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:hint="@string/nCarriles"/>
+                        android:hint="@string/nCarriles"
+                        android:text="2"
+                        android:gravity="center"/>
                 </android.support.design.widget.TextInputLayout>
 
 
@@ -111,7 +108,9 @@
                         android:id="@+id/campoAnchoCarrilFlex"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:hint="@string/anchoCarril"/>
+                        android:hint="@string/anchoCarril"
+                        android:text="3.65"
+                        android:gravity="center"/>
                 </android.support.design.widget.TextInputLayout>
 
 
@@ -125,7 +124,9 @@
                         android:id="@+id/campoAnchoBermaFlex"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:hint="@string/anchoBerma"/>
+                        android:hint="@string/anchoBerma"
+                        android:text="1"
+                        android:gravity="center"/>
                 </android.support.design.widget.TextInputLayout>
 
 
@@ -156,7 +157,9 @@
                         android:id="@+id/campoPRIFlex"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:hint="@string/pri"/>
+                        android:hint="@string/pri"
+                        android:text="0"
+                        android:gravity="center"/>
                 </android.support.design.widget.TextInputLayout>
 
                 <android.support.design.widget.TextInputLayout
@@ -168,7 +171,9 @@
                         android:id="@+id/campoPRFFlex"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:hint="@string/prf"/>
+                        android:hint="@string/prf"
+                        android:text="200"
+                        android:gravity="center"/>
 
                 </android.support.design.widget.TextInputLayout>
 
@@ -184,7 +189,8 @@
                     android:id="@+id/campoComentariosFlex"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="@string/comentarios"/>
+                    android:hint="@string/comentarios"
+                    android:text="@string/ej_registro_flex"/>
             </android.support.design.widget.TextInputLayout>
 
         </LinearLayout>
@@ -200,7 +206,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/fecha"
-                android:onClick="onClick" />
+                 />
 
             <EditText
                 android:id="@+id/campoFechaSegmentoFlexRegistro"
@@ -208,18 +214,11 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:hint="@string/fecha"
+                android:text="02/09/1994"
+                android:gravity="center"
                 />
 
         </LinearLayout>
-
-        <Button
-            android:id="@+id/btnRegistroSegmentoFlex"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/marginTop"
-            android:text="@string/regisSeg"
-            android:layout_below="@+id/llRegistroSegmentoFlex"
-            android:onClick="onClick"/>
 
 
 
@@ -228,8 +227,4 @@
 
 
     </LinearLayout>
-
-
-
-
 </ScrollView>

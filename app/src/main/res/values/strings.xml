@@ -2,6 +2,10 @@
 
     <string name="ej_carretera_admon">Tipo de administracion que tiene la carretera: Concesión,
         Mantenimineto Integral(MTTO Integral) o Administradores viales(A.M.V.</string>
+    <string name="ej_registro_flex">Para el correcto diligenciamiento de todos los campos presentes consultar "MANUAL PARA LA INSPECCION DE PAVIEMNTOS FLEXIBLES".
+    </string>
+    <string name="ej_patologia_flex">Recuerde que para la correcta obtencion de las coordenadas es necesario tener la navegacion del terminal activada.
+    Para el correcto diligenciamiento de todos los campos presentes consultar "MANUAL PARA LA INSPECCION DE PAVIEMNTOS FLEXIBLES".</string>
     <string name="ej_carretera_administracion">A.M.V.</string>
     <string name="ej_carretera_levantado">Alejandro Zorrilla</string>
     <string name="ejemplo">Ejemplo</string>

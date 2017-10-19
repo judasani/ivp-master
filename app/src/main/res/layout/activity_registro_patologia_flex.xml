@@ -39,6 +39,16 @@
                 android:hint="@string/segmento"
                 android:textStyle="bold|italic"/>
 
+            <TextView
+                android:id="@+id/tvej_pato_Flex"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/ejemplo"
+                android:textColor="@color/colorAccent"
+                android:layout_gravity="right"
+                android:layout_marginRight="@dimen/marginLeftTV"
+                android:onClick="onClick"/>
+
         </LinearLayout>
 
 
