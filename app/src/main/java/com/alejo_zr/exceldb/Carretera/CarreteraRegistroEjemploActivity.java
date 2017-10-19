@@ -12,4 +12,8 @@ public class CarreteraRegistroEjemploActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_carretera_registro_ejemplo);
     }
+
+
+
+
 }
